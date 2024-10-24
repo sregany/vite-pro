@@ -6,9 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "lint": "eslint ."
+
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.6.0",
