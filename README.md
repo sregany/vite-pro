@@ -14,4 +14,5 @@
 - **React:** Biblioteca de JavaScript para construir interfaces de usuario.
 - **Tailwind CSS:** Framework de CSS que permite un diseño personalizado y moderno.
 - **Framer Motion:** Biblioteca de animación para React que permite implementar animaciones complejas con facilidad.
-  [localhost_5173_ (1)](https://github.com/user-attachments/assets/303ef9de-022d-41f5-b1d5-6536f5af61a3)
+
+![localhost_5173_ (1)](https://github.com/user-attachments/assets/036f90f6-82d2-4821-8ca2-6a62e4d6881f)
