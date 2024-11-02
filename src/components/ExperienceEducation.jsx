@@ -35,7 +35,7 @@ const ExperienceEducation = () => {
             variants={{
               visible: { transition: { staggerChildren: 0.3 } },
             }}
-            viewport={{ once: false }} // Permitir animaciones cada vez que está en vista
+            viewport={{ once: true }} // Activa la animación solo la primera vez
           >
             {/* Experience Item */}
             <motion.li 
@@ -83,7 +83,7 @@ const ExperienceEducation = () => {
             variants={{
               visible: { transition: { staggerChildren: 0.3 } },
             }}
-            viewport={{ once: false }} // Permitir animaciones cada vez que está en vista
+            viewport={{ once: true }} // Activa la animación solo la primera vez
           >
             {/* Education Item */}
             <motion.li 

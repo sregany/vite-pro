@@ -39,7 +39,7 @@ function Hero() {
   return (
     <div 
       id='inicio' 
-      className="relative h-screen bg-cover bg-center bg-no-repeat" 
+      className=" relative h-screen bg-cover bg-center bg-no-repeat" 
       style={{ backgroundImage: `url(${fondoHd})` }}
     >
       {/* Gradiente de Difuminado Ajustado */}
@@ -48,7 +48,7 @@ function Hero() {
       {/* Overlay para oscurecer */}
       <div className="absolute inset-0 bg-black opacity-50"></div> 
 
-      <div className="relative flex items-center justify-center h-full">
+      <div className=" relative flex items-center justify-center h-full">
         <div className="p-12 md:text-center">
           
           {/* Animación del Nombre */}
@@ -67,7 +67,7 @@ function Hero() {
 
           {/* Animación del Rol después del nombre */}
           <motion.p
-            className="text-[1.375rem] text-4xl tracking-[1.2rem] mb-8 text-white"
+            className="text-[1.375rem] text-4xl tracking-[0.6rem] md:tracking-[1.2rem] mb-8 text-white"
             variants={descripcionVariants}
             initial="hidden"
             animate="visible"

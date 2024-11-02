@@ -27,11 +27,11 @@ export default {
       container: {
         center : true,
         padding: {
-          DEFAULT: '5rem',
-          sm: '2rem',
-          lg: '4rem',
-          xl: '5rem',
-          '2xl': '6rem',
+          DEFAULT: '1rem',     // Padding en pantallas pequeñas
+          sm: '1.5rem',        // Padding para pantallas >= 480px
+          md: '2rem',          // Padding para pantallas >= 768px
+          lg: '3rem',          // Padding para pantallas >= 1024px
+          xl: '4rem',          // Padding para pantallas >= 1440px
         }
 
       },

@@ -40,10 +40,8 @@ const AboutMe = () => {
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true); // Se activa cuando la sección es visible
-        } else {
-          setIsVisible(false); // Se puede restablecer a false si se desea
+        if (entry.isIntersecting && !isVisible) {
+          setIsVisible(true); // Solo se activa la animación la primera vez
         }
       },
       { threshold: 0.1 } // Se activa cuando al menos el 10% es visible
@@ -58,7 +56,7 @@ const AboutMe = () => {
         observer.unobserve(sectionRef.current);
       }
     };
-  }, []);
+  }, [isVisible]); // Dependencia para evitar restablecer isVisible
 
   return (
     <div 

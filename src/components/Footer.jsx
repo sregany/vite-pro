@@ -1,4 +1,3 @@
-import { navLinks } from "../constants";
 import { FaArrowUp } from "react-icons/fa";
 import logo from "../assets/logo.png"; // Asegúrate de tener el logo en la carpeta assets
 
