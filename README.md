@@ -1,8 +1,18 @@
-# React + Vite
+# Mi Portafolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Bienvenido a mi portafolio! Este proyecto ha sido creado para mostrar mis habilidades y proyectos como desarrollador de React. He utilizado **React** para la construcción de la interfaz, **Tailwind CSS** para el diseño y la estilización, y **Framer Motion** para añadir animaciones interactivas.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Diseño Responsivo:** El portafolio se adapta a diferentes tamaños de pantalla para garantizar una buena experiencia de usuario en dispositivos móviles y de escritorio.
+- **Transiciones Animadas:** Utiliza **Framer Motion** para proporcionar transiciones suaves y atractivas entre las diferentes secciones.
+- **Sección de Habilidades:** Presenta mis habilidades técnicas de forma interactiva, con iconos que se resaltan al pasar el ratón.
+- **Navegación Intuitiva:** Un menú de navegación que permite acceder fácilmente a las diferentes secciones del portafolio.
+
+## Tecnologías Utilizadas
+
+- **React:** Biblioteca de JavaScript para construir interfaces de usuario.
+- **Tailwind CSS:** Framework de CSS que permite un diseño personalizado y moderno.
+- **Framer Motion:** Biblioteca de animación para React que permite implementar animaciones complejas con facilidad.
+
+![localhost_5173_ (1)](https://github.com/user-attachments/assets/036f90f6-82d2-4821-8ca2-6a62e4d6881f)
